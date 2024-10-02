@@ -3,7 +3,7 @@
 import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-import img_contact from '../assets/images/img_contact_02.jpg';
+import img_contact from '../assets/images/img_contact_03.png';
 // TODO:: import Loader from '../components/Loader';
 import useAlert from '../hooks/useAlert';
 import Alert from '../components/Alert';
@@ -59,7 +59,8 @@ const Contact = () => {
   };
 
   return (
-    <section className="relative flex lg:flex-row flex-col max-container">
+    // h-[100vh]
+    <section className="relative flex lg:flex-row flex-col max-container h-[100vh]">
 
       {/* {alert.show && <div className={`alert ${alert.type}`}>{alert.text}</div>} */}
       {/* {alert.show && <Alert {...alert} /> } */}
